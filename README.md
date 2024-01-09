@@ -15,9 +15,9 @@ Please refer to [install.md](https://libfewshot-en.readthedocs.io/en/latest/inst
 Complete tutorials can be found at [document](https://libfewshot-en.readthedocs.io/en/latest/)([中文文档](https://libfewshot-en.readthedocs.io/zh_CN/latest/index.html)).
 
 
-##pth放置预训练文件
+## pth
 You can also find these checkpoints at [model_zoo](https://drive.google.com/drive/u/1/folders/16DWKKqjzALoq4qb8LZQ6oELD9SGlYWe_).
-##result存放训练结果权重
+## result存放训练结果权重
 基于miniImageNet的Conv64F和resnet18在Webcaricature上微调的5-way-1-shot和5-way-5-shot的模型权重，可以在[Google Drive](https://drive.google.com/drive/folders/1GHbIbzIZUur43WHlrOzUP7T2XPJwpXyc?usp=drive_link)中找到
 
 ## Acknowledgement
