@@ -15,17 +15,10 @@ Please refer to [install.md](https://libfewshot-en.readthedocs.io/en/latest/inst
 Complete tutorials can be found at [document](https://libfewshot-en.readthedocs.io/en/latest/)([中文文档](https://libfewshot-en.readthedocs.io/zh_CN/latest/index.html)).
 
 
-
+##pth放置预训练文件
 You can also find these checkpoints at [model_zoo](https://drive.google.com/drive/u/1/folders/16DWKKqjzALoq4qb8LZQ6oELD9SGlYWe_).
-
-## Datasets
-[WebCaricature](https://arxiv.org/abs/1703.03230) are available at [Google Drive](https://drive.google.com/drive/u/1/folders/1SEoARH5rADckI-_gZSQRkLclrunL-yb0) and [百度网盘(提取码：yr1w)](https://pan.baidu.com/s/1M3jFo2OI5GTOpytxgtO1qA).
-
-## Contributing
-Please feel free to contribute any kind of functions or enhancements, where the coding style follows PEP 8. Please kindly refer to [contributing.md](https://libfewshot-en.readthedocs.io/en/latest/contributing.html)([贡献代码](https://libfewshot-en.readthedocs.io/zh_CN/latest/contributing.html)) for the contributing guidelines.
-
-## License
-This project is licensed under the MIT License. See LICENSE for more details.
+##result存放训练结果权重
+基于miniImageNet的Conv64F和resnet18在Webcaricature上微调的5-way-1-shot和5-way-5-shot的模型权重，可以在[Google Drive](https://drive.google.com/drive/folders/1GHbIbzIZUur43WHlrOzUP7T2XPJwpXyc?usp=drive_link)中找到
 
 ## Acknowledgement
 LibFewShot is an open source project designed to help few-shot learning researchers quickly understand the classic methods and code structures. We welcome other contributors to use this framework to implement their own or other impressive methods and add them to LibFewShot. This library can only be used for academic research. We welcome any feedback during using LibFewShot and will try our best to continually improve the library.
