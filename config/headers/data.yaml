@@ -1,4 +1,4 @@
-data_root: /data/fewshot/miniImageNet--ravi
+data_root: ./WebCaricature
 image_size: 84
 use_memory: False
 augment: True

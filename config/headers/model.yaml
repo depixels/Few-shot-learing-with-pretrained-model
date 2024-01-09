@@ -4,12 +4,12 @@ test_epoch: 5
 parallel_part:
   - emb_func
 
-pretrain_path: ~
+pretrain_path: ./pth/Baseline-20240106T180818Z-001/Baseline/Baseline-miniImageNet--ravi-resnet18-5-Reproduce/checkpoints/model_best.pth
 resume: False
 # few shot settings
 way_num: 5
-shot_num: 1
-query_num: 15
+shot_num: 5
+query_num: 11
 test_way: ~ # use ~ -> test_* = *_num
 test_shot: ~
 test_query: ~

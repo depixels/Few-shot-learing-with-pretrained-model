@@ -430,7 +430,7 @@ class Trainer(object):
                 "load pretraining emb_func from {}".format(self.config["pretrain_path"])
             )
             state_dict = torch.load(self.config["pretrain_path"], map_location="cpu")
-            msg = model.emb_func.load_state_dict(state_dict, strict=False)
+            msg = model.load_state_dict(state_dict, strict=False)
 
             if len(msg.missing_keys) != 0:
                 print("Missing keys:{}".format(msg.missing_keys), level="warning")

@@ -5,7 +5,7 @@ includes:
   - headers/model.yaml
   - headers/optimizer.yaml
   - classifiers/Baseline.yaml
-  - backbones/Conv64F.yaml
+  - backbones/resnet18.yaml
 
 classifier:
   name: Baseline
@@ -17,17 +17,14 @@ classifier:
           lr: 1e-3
       inner_train_iter: 100
       inner_batch_size: 4
-    feat_dim: 1600
-    num_class: 64
+    feat_dim: 512
+    num_class: 200
 
 backbone:
-  name: Conv64F
+  name: resnet18
   kwargs:
     is_flatten: True
     is_feature: False
-    leaky_relu: False
-    negative_slope: 0.2
-    last_pool: True
 
 # backbone:
 #   name: resnet12

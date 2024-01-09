@@ -1,6 +1,0 @@
-classifier:
-  name: RelationNet
-  kwargs:
-    feat_dim: 64
-    feat_height: 3
-    feat_width: 3
